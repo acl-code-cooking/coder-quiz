@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+
+    <main>
+        <form id="quiz">
+            <fieldset>
+                <legend>Choose your reward</legend>
+
+                <label for="gold">Gold</label>
+                <input
+                    type="radio"
+                    name="reward"
+                    id="gold"
+                    value="gold"
+                >
+
+                <label for="scroll">Scroll</label>
+                <input
+                    type="radio"
+                    name="reward"
+                    id="scroll"
+                    value="scroll"
+                >
+                
+                <label for="honor">Honor</label>
+                <input
+                    type="radio"
+                    name="reward"
+                    id="honor"
+                    value="honor"
+                >
+            </fieldset>
+            <button>Submit</button>
+        </form>
+    </main>
+    <script type="module" src="./src/quiz/quiz.js"></script>
+</body>
+</html>
