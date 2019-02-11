@@ -1,4 +1,4 @@
-import scoreReward from '../../src/result/calculate/score-reward.js';
+import scoreReward from '../../src/result/calculate/reward/score-reward.js';
 const test = QUnit.test;
 
 QUnit.module('score reward');

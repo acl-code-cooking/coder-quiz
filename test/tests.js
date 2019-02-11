@@ -1,3 +1,3 @@
 // import test files here.
 
-import './treasure/score-reward.test.js';
+import './reward/score-reward.test.js';
