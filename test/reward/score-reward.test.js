@@ -11,7 +11,7 @@ QUnit.testStart(function() {
 
 test('gold', function(assert) {
     scoreReward('gold', scorecard);
-    assert.deepEqual(scorecard, { pirate: 0.5, ninja: 0, viking: 0.5 });
+    assert.deepEqual(scorecard, { pirate: 1, ninja: 0, viking: 0 });
 });
 
 test('scroll', function(assert) {
@@ -21,10 +21,6 @@ test('scroll', function(assert) {
 
 test('honor', function(assert) {
     scoreReward('honor', scorecard);
-    assert.deepEqual(scorecard, { pirate: 0, ninja: 0.5, viking: 1 });
+    assert.deepEqual(scorecard, { pirate: 0, ninja: 0, viking: 1 });
 });
 
-test('jewels', function(assert) {
-    scoreReward('jewels', scorecard);
-    assert.deepEqual(scorecard, { pirate: 1, ninja: 0, viking: 0 });
-});
